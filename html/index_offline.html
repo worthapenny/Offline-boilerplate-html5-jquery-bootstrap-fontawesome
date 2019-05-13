@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>Site Title</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    
+    <!--[if lt IE 9]>
+    <script src=""></script>
+    <![endif]-->
+
+    
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="../css/font.awesome.all.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../wo.ico">
+    
+    <!-- site specific CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+
+
+    <!-- Your stuff goes here -->
+
+    
+    <!-- jQuery  -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="../js/font.awesome.all.js"></script>
+
+    <!-- Quick Test -->
+
+    <span class="btn btn-primary m-5" id="my-button">
+        <i class="fa fa-times mr-3"></i>
+        Button Primary 
+    </span>
+
+    <script>
+        $("#my-button").on("click", function() {
+            $("#my-button").removeClass("btn-primary");
+            $("#my-button").addClass("btn-danger");
+            alert("jQuer is working!");
+        })
+    </script>
+
+</body>
+
+</html>
