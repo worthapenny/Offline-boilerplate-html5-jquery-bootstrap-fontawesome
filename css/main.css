@@ -1,8 +1,4 @@
-body {
-    background-color: darkgray;
-  }
-
-  /* To prevent the collapse-able menu from auto collapse */
-  .navbar-collapse.collapse.in {
-    display: block!important;
-  }
+body{background-color:#a9a9a9}
+.sidebar-separator-title{background-color:#333;height:35px}
+#sidebar-container .list-group-item{color:#b5b0b0!important;border-radius:0}
+.indent-level1{padding:0 0 10px 25px;background-color:#333}
