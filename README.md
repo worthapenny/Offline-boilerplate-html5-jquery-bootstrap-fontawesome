@@ -3,6 +3,12 @@ An offline boilerplate for html5 supporting jquery bootstrap and fontawesome.
 * Ready to use blank html page with jQuery, Bootstrap and Font Awesome sources...
 * Ready to use top navigation with search and a drop down menu for both online and offline version!
 
+## Ready to use pages with top navigation bar as well as both, top and side navigation bars
+### Top Navigation
+![Alt text](../md-images/top-nav.png?raw=true "Topbar navigation")
+
+### Top Navigation
+![Alt text](../md-images/side-nav.png?raw=true "Sidebar navigation")
 
 ## Online template is also there... Or, use the following
 ### jQuery <br>
